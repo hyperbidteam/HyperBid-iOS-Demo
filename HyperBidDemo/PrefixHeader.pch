@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  MCSDKDemo
+//
+//  Created by HyperBid on 2025/1/5.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+ 
+#import "SDKMacros.h"
+#import "Masonry.h"
+#import "LocalizationManager.h"
+#import "Tools.h"
+
+#endif /* PrefixHeader_pch */
