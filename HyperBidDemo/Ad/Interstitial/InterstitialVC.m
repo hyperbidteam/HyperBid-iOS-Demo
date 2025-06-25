@@ -38,6 +38,14 @@
     // Set delegate object
     self.interstitialAd.delegate = self;
     self.interstitialAd.revenueDelegate = self;
+    
+    [self.interstitialAd setLoadExtraParameter:@{
+        @"userData": @"test_userData"
+    }];
+    
+    [self.interstitialAd setExtraParameter:@{
+        @"test_extra_key": @"test_extra_value"
+    }];
   
     // Start loading ad - required step
     [self.interstitialAd loadAd];
@@ -85,6 +93,9 @@
     
     // Reset retry loading count
     self.retryAttempt = 0;
+    
+    // Retrieve customized parameters
+    NSString *originDataJsonString = ad.originData;
 }
 
 // Ad failed to load

@@ -145,7 +145,7 @@
     [self showLog:[NSString stringWithFormat:@"%s, didLoadNativeAd:%@", __FILE_NAME__, ad]];
     
     // Reset retry loading count
-    self.retryAttempt = 0;
+    self.retryAttempt = 0; 
 }
 
 /// Ad failed to load

@@ -40,6 +40,10 @@
         kMCRewardedAdLoadExtraRewardAmountKey: @(100),
     }];
     
+    [self.rewardedAd setExtraParameter:@{
+         @"test_extra_key": @"test_extra_value"
+    }];
+    
     // Start loading ad - required step
     [self.rewardedAd loadAd];
 }
@@ -86,6 +90,9 @@
      
     // Reset retry loading count
     self.retryAttempt = 0;
+    
+    // Retrieve customized parameters
+    NSString *originDataJsonString = ad.originData;
 }
 
 // Load failed

@@ -47,6 +47,14 @@
     // Set scene ID
     self.bannerView.placement = BannerSceneID;
     
+    [self.bannerView setLoadExtraParameter:@{
+        @"userData": @"test_userData"
+    }];
+     
+    [self.bannerView setExtraParameter:@{
+        @"test_extra_key": @"test_extra_value"
+    }];
+    
     // Start loading ad - required step
     [self.bannerView loadAd];
 }
@@ -110,6 +118,9 @@
 - (void)didLoadAd:(MCAdInfo *)ad {
     self.hasLoaded = YES;
     [self showLog:[NSString stringWithFormat:@"%s, didLoadAd:%@", __FILE_NAME__, ad]];
+    
+    // Retrieve customized parameters
+    NSString *originDataJsonString = ad.originData;
 }
 
 // Load failed

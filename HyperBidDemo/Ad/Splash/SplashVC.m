@@ -41,6 +41,15 @@
  
     // Set greater than 0 to enable, if timeout is set in darhboard, darhboard price priority callback timeout setting takes precedence, recommended to set
     [self.appOpenAd setLoadAdTimeout:Splash_Timeout];
+    
+    [self.appOpenAd setLoadExtraParameter:@{
+        @"userData": @"test_userData"
+    }];
+    
+    [self.appOpenAd setExtraParameter:@{
+        @"test_extra_key": @"test_extra_value"
+    }];
+     
     // Start loading ad - required step
     [self.appOpenAd loadAd];
 }
@@ -102,6 +111,9 @@
      
     // Reset retry loading count
     self.retryAttempt = 0;
+    
+    // Retrieve customized parameters
+    NSString *originDataJsonString = ad.originData;
 }
 
 // Load timeout
