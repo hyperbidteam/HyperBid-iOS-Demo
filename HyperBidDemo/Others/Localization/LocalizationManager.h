@@ -2,7 +2,7 @@
 //  LocalizationManager.h
 //  HyperBidDemo
 //
-//  Created by HyperBid技术支持 on 2025/1/6.
+//  Created by HyperBid Tech Support on 2025/1/6.
 //
 
 #import <Foundation/Foundation.h>

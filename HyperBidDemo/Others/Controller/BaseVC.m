@@ -2,7 +2,7 @@
 //  BaseVC.m
 //  HyperBidDemo
 //
-//  Created by HyperBid技术支持 on 2025/1/6.
+//  Created by HyperBid Tech Support on 2025/1/6.
 //
 
 #import "BaseVC.h"
@@ -144,7 +144,7 @@
 }
 
 - (void)clearLog {
-    TwoButtonAlertView * al =  [[TwoButtonAlertView alloc] initWithTitle:kLocalizeStr(@"温馨提示") content:kLocalizeStr(@"是否要清空日志") buttonText1:kLocalizeStr(@"否") buttonText2:kLocalizeStr(@"是")];
+    TwoButtonAlertView * al = [[TwoButtonAlertView alloc] initWithTitle:kLocalizeStr(@"Tips") content:kLocalizeStr(@"ClearLogConfirm") buttonText1:kLocalizeStr(@"No") buttonText2:kLocalizeStr(@"Yes")];
     @WeakObj(self);
     [al addTwoButtonAlertBlock:^(NSInteger index) {
         @StrongObj(self);

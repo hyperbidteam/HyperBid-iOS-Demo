@@ -2,7 +2,7 @@
 //  ATADFootView.h
 //  AnyThingSDKDemo
 //
-//  Created by HyperBid技术支持 on 2021/12/6.
+//  Created by HyperBid Tech Support on 2021/12/6.
 //
 
 #import <UIKit/UIKit.h>

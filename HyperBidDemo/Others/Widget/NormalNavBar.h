@@ -2,7 +2,7 @@
 //  NormalNavBar.h
 //  HyperBidDemo
 //
-//  Created by HyperBid技术支持 on 2025/1/7.
+//  Created by HyperBid Tech Support on 2025/1/7.
 //
 
 #import <UIKit/UIKit.h>

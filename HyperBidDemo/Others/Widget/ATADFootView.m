@@ -2,7 +2,7 @@
 //  ATADFootView.m
 //  AnyThingSDKDemo
 //
-//  Created by HyperBid技术支持 on 2021/12/6.
+//  Created by HyperBid Tech Support on 2021/12/6.
 //
 
 #import "ATADFootView.h"
@@ -215,10 +215,10 @@
 - (UIButton *)loadBtn
 {
     if (!_loadBtn) {
-        _loadBtn = [[UIButton alloc] init];
+        _loadBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_loadBtn setTitle:kLocalizeStr(@"LoadAd") forState:UIControlStateNormal];
         _loadBtn.layer.masksToBounds = YES;
-        _loadBtn.layer.cornerRadius = 5;
-        [_loadBtn setTitle:kLocalizeStr(@"加载广告") forState:UIControlStateNormal];
+        _loadBtn.layer.cornerRadius = 5; 
         _loadBtn.layer.borderColor = kRGB(73, 109, 255).CGColor;
         _loadBtn.layer.borderWidth = kAdaptW(3,3);
         [_loadBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
@@ -234,10 +234,10 @@
 - (UIButton *)showBtn
 {
     if (!_showBtn) {
-        _showBtn = [[UIButton alloc] init];
+        _showBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_showBtn setTitle:kLocalizeStr(@"ShowAd") forState:UIControlStateNormal];
         _showBtn.layer.masksToBounds = YES;
-        _showBtn.layer.cornerRadius = 5;
-        [_showBtn setTitle:kLocalizeStr(@"展示广告") forState:UIControlStateNormal];
+        _showBtn.layer.cornerRadius = 5; 
         _showBtn.layer.borderColor = kRGB(73, 109, 255).CGColor;
         _showBtn.layer.borderWidth = kAdaptW(3,3);
         [_showBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
@@ -252,10 +252,10 @@
 - (UIButton *)logBtn
 {
     if (!_logBtn) {
-        _logBtn = [[UIButton alloc] init];
+        _logBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_logBtn setTitle:kLocalizeStr(@"ClearLog") forState:UIControlStateNormal];
         _logBtn.layer.masksToBounds = YES;
-        _logBtn.layer.cornerRadius = 5;
-        [_logBtn setTitle:kLocalizeStr(@"清除日志") forState:UIControlStateNormal];
+        _logBtn.layer.cornerRadius = 5; 
         _logBtn.layer.borderColor = kRGB(73, 109, 255).CGColor;
         _logBtn.layer.borderWidth = kAdaptW(3,3);
         [_logBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
@@ -270,10 +270,10 @@
 - (UIButton *)removeBtn
 {
     if (!_removeBtn) {
-        _removeBtn = [[UIButton alloc] init];
+        _removeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_removeBtn setTitle:kLocalizeStr(@"RemoveAd") forState:UIControlStateNormal];
         _removeBtn.layer.masksToBounds = YES;
-        _removeBtn.layer.cornerRadius = 5;
-        [_removeBtn setTitle:kLocalizeStr(@"移除广告") forState:UIControlStateNormal];
+        _removeBtn.layer.cornerRadius = 5; 
         _removeBtn.layer.borderColor = kRGB(73, 109, 255).CGColor;
         _removeBtn.layer.borderWidth = kAdaptW(3,3);
         [_removeBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
@@ -289,10 +289,10 @@
 - (UIButton *)reShowBtn
 {
     if (!_reShowBtn) {
-        _reShowBtn = [[UIButton alloc] init];
+        _reShowBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_reShowBtn setTitle:kLocalizeStr(@"ReshowAd") forState:UIControlStateNormal];
         _reShowBtn.layer.masksToBounds = YES;
-        _reShowBtn.layer.cornerRadius = 5;
-        [_reShowBtn setTitle:kLocalizeStr(@"重新展示") forState:UIControlStateNormal];
+        _reShowBtn.layer.cornerRadius = 5; 
         _reShowBtn.layer.borderColor = kRGB(73, 109, 255).CGColor;
         _reShowBtn.layer.borderWidth = kAdaptW(3,3);
         [_reShowBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
@@ -308,10 +308,10 @@
 - (UIButton *)hidenBtn
 {
     if (!_hidenBtn) {
-        _hidenBtn = [[UIButton alloc] init];
+        _hidenBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_hidenBtn setTitle:kLocalizeStr(@"HideAd") forState:UIControlStateNormal];
         _hidenBtn.layer.masksToBounds = YES;
-        _hidenBtn.layer.cornerRadius = 5;
-        [_hidenBtn setTitle:kLocalizeStr(@"隐藏广告") forState:UIControlStateNormal];
+        _hidenBtn.layer.cornerRadius = 5; 
         _hidenBtn.layer.borderColor = kRGB(73, 109, 255).CGColor;
         _hidenBtn.layer.borderWidth = kAdaptW(3,3);
         [_hidenBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];

@@ -2,7 +2,7 @@
 //  NaviBarView.m
 //  HyperBidDemo
 //
-//  Created by HyperBid技术支持 on 2025/1/5.
+//  Created by HyperBid Tech Support on 2025/1/5.
 //
 
 #import "NaviBarView.h"

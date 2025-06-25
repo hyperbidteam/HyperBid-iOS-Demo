@@ -2,7 +2,7 @@
 //  CustomTableViewCell.h
 //  HyperBidDemo
 //
-//  Created by HyperBid技术支持 on 2024/12/25.
+//  Created by HyperBid Tech Support on 2024/12/25.
 //
 
 #import <UIKit/UIKit.h>

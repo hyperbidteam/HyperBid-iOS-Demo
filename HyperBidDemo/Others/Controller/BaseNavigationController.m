@@ -2,7 +2,7 @@
 //  BaseNavigationController.m
 //  TPNiOSDemo
 //
-//  Created by HyperBid技术支持 on 2025/3/20.
+//  Created by HyperBid Tech Support on 2025/3/20.
 //
 
 #import "BaseNavigationController.h"

@@ -2,7 +2,7 @@
 //  CustomTableViewCell.m
 //  HyperBidDemo
 //
-//  Created by HyperBid技术支持 on 2024/12/25.
+//  Created by HyperBid Tech Support on 2024/12/25.
 //
 
 #import "CustomTableViewCell.h"
@@ -20,16 +20,14 @@
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
- 
-        // 初始化标题标签
+  
         self.titleLbl = [[UILabel alloc] initWithFrame:CGRectZero];
         self.titleLbl.font = [UIFont systemFontOfSize:16];
         self.titleLbl.textColor = [UIColor blackColor];
         self.titleLbl.translatesAutoresizingMaskIntoConstraints = NO;
         self.titleLbl.adjustsFontSizeToFitWidth = YES;
         [self.contentView addSubview:self.titleLbl];
-        
-//        // 初始化副标题标签
+         
 //        self.subTitleLbl = [[UILabel alloc] initWithFrame:CGRectZero];
 //        self.subTitleLbl.font = [UIFont systemFontOfSize:14];
 //        self.subTitleLbl.textColor = [UIColor lightGrayColor];
@@ -44,16 +42,14 @@
         UIView * line = [UIView new];
         line.backgroundColor = kHexColor(0xF4F4F4);
         [self.contentView addSubview:line];
-        
-        // 设置标题和副标题的约束
+         
         [self.titleLbl mas_makeConstraints:^(MASConstraintMaker *make) {
 //            make.top.mas_equalTo(self.contentView).mas_offset(20);
             make.centerY.mas_equalTo(self.contentView);
             make.left.mas_equalTo(self.contentView).mas_offset(30);
             make.height.mas_equalTo(self.titleLbl.font.lineHeight);
         }];
-        
-        // 设置标题和副标题的约束
+         
 //        [self.subTitleLbl mas_makeConstraints:^(MASConstraintMaker *make) {
 //            make.top.mas_equalTo(self.titleLbl.mas_bottom).mas_offset(15);
 //            make.left.mas_equalTo(self.titleLbl);

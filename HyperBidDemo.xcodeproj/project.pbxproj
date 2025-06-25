@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		412BD9A34F22F0C199C28274 /* Pods_HyperBidDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAACB9DF20E9059B40E5E7C4 /* Pods_HyperBidDemo.framework */; };
+		9F8FB4457D7591119620E66C /* Pods_HyperBidDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB99AB7D495ECD9B42E5452F /* Pods_HyperBidDemo.framework */; };
 		CAAEE89A2D9BDEC900B68282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAEE88E2D9BDEC900B68282 /* Assets.xcassets */; };
 		CAAEE89C2D9BDEC900B68282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAEE8912D9BDEC900B68282 /* LaunchScreen.storyboard */; };
 		CAAEE89D2D9BDEC900B68282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAEE8942D9BDEC900B68282 /* Main.storyboard */; };
@@ -48,8 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		76A06B1FAE202A7098315FB1 /* Pods-HyperBidDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperBidDemo.release.xcconfig"; path = "Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo.release.xcconfig"; sourceTree = "<group>"; };
-		CAACB9DF20E9059B40E5E7C4 /* Pods_HyperBidDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperBidDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B91B06996DDB7B11AA03AB2 /* Pods-HyperBidDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperBidDemo.debug.xcconfig"; path = "Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		51A9E6DEED777E7C7CD6279B /* Pods-HyperBidDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperBidDemo.release.xcconfig"; path = "Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CAAEE86F2D9BDEC000B68282 /* HyperBidDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperBidDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAEE88C2D9BDEC900B68282 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAAEE88D2D9BDEC900B68282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		CAE342482D9CF9870072B6A2 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		CAE342492D9CF9870072B6A2 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		CAE3424C2D9D08440072B6A2 /* file */ = {isa = PBXFileReference; lastKnownFileType = text; path = file; sourceTree = "<group>"; };
-		D1B3533247900458A46A9DE5 /* Pods-HyperBidDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperBidDemo.debug.xcconfig"; path = "Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DB99AB7D495ECD9B42E5452F /* Pods_HyperBidDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperBidDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412BD9A34F22F0C199C28274 /* Pods_HyperBidDemo.framework in Frameworks */,
+				9F8FB4457D7591119620E66C /* Pods_HyperBidDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,16 +139,16 @@
 		22B87E24AD33E31CB1291D4B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1B3533247900458A46A9DE5 /* Pods-HyperBidDemo.debug.xcconfig */,
-				76A06B1FAE202A7098315FB1 /* Pods-HyperBidDemo.release.xcconfig */,
+				0B91B06996DDB7B11AA03AB2 /* Pods-HyperBidDemo.debug.xcconfig */,
+				51A9E6DEED777E7C7CD6279B /* Pods-HyperBidDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		886279F7958C77D02910DFE0 /* Frameworks */ = {
+		60FD5C17194477A880CA9E10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CAACB9DF20E9059B40E5E7C4 /* Pods_HyperBidDemo.framework */,
+				DB99AB7D495ECD9B42E5452F /* Pods_HyperBidDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 				CAAEE8992D9BDEC900B68282 /* HyperBidDemo */,
 				CAAEE8702D9BDEC000B68282 /* Products */,
 				22B87E24AD33E31CB1291D4B /* Pods */,
-				886279F7958C77D02910DFE0 /* Frameworks */,
+				60FD5C17194477A880CA9E10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,9 +174,9 @@
 		CAAEE8992D9BDEC900B68282 /* HyperBidDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CAE341D22D9CF9590072B6A2 /* Home(Demo首页) */,
-				CAE3421A2D9CF96C0072B6A2 /* Ad(广告样式) */,
-				CAE342292D9CF96C0072B6A2 /* Tools&Manager(工具和管理类) */,
+				CAE341D22D9CF9590072B6A2 /* Home */,
+				CAE3421A2D9CF96C0072B6A2 /* Ad */,
+				CAE342292D9CF96C0072B6A2 /* Tools&Manager */,
 				CAE341AA2D9CF8240072B6A2 /* Others */,
 				CAAEE88C2D9BDEC900B68282 /* AppDelegate.h */,
 				CAAEE88D2D9BDEC900B68282 /* AppDelegate.m */,
@@ -248,31 +248,31 @@
 			path = Widget;
 			sourceTree = "<group>";
 		};
-		CAE341D22D9CF9590072B6A2 /* Home(Demo首页) */ = {
+		CAE341D22D9CF9590072B6A2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				CAE341D02D9CF9590072B6A2 /* HomeViewController.h */,
 				CAE341D12D9CF9590072B6A2 /* HomeViewController.m */,
 			);
-			path = "Home(Demo首页)";
+			path = Home;
 			sourceTree = "<group>";
 		};
-		CAE341D62D9CF96C0072B6A2 /* Banner(横幅广告) */ = {
+		CAE341D62D9CF96C0072B6A2 /* Banner */ = {
 			isa = PBXGroup;
 			children = (
 				CAE341D42D9CF96C0072B6A2 /* BannerVC.h */,
 				CAE341D52D9CF96C0072B6A2 /* BannerVC.m */,
 			);
-			path = "Banner(横幅广告)";
+			path = Banner;
 			sourceTree = "<group>";
 		};
-		CAE341DB2D9CF96C0072B6A2 /* Interstitial(插屏广告) */ = {
+		CAE341DB2D9CF96C0072B6A2 /* Interstitial */ = {
 			isa = PBXGroup;
 			children = (
 				CAE341D72D9CF96C0072B6A2 /* InterstitialVC.h */,
 				CAE341D82D9CF96C0072B6A2 /* InterstitialVC.m */,
 			);
-			path = "Interstitial(插屏广告)";
+			path = Interstitial;
 			sourceTree = "<group>";
 		};
 		CAE341EA2D9CF96C0072B6A2 /* AdDisplayVC */ = {
@@ -346,81 +346,81 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		CAE342032D9CF96C0072B6A2 /* SelfRenderView(自渲染视图) */ = {
+		CAE342032D9CF96C0072B6A2 /* SelfRenderView */ = {
 			isa = PBXGroup;
 			children = (
 				CAE342012D9CF96C0072B6A2 /* SelfRenderView.h */,
 				CAE342022D9CF96C0072B6A2 /* SelfRenderView.m */,
 			);
-			path = "SelfRenderView(自渲染视图)";
+			path = SelfRenderView;
 			sourceTree = "<group>";
 		};
-		CAE342062D9CF96C0072B6A2 /* SingleExpressAd(单个模版广告) */ = {
+		CAE342062D9CF96C0072B6A2 /* SingleExpressAd */ = {
 			isa = PBXGroup;
 			children = (
 				CAE342042D9CF96C0072B6A2 /* ExpressVC.h */,
 				CAE342052D9CF96C0072B6A2 /* ExpressVC.m */,
 			);
-			path = "SingleExpressAd(单个模版广告)";
+			path = SingleExpressAd;
 			sourceTree = "<group>";
 		};
-		CAE342092D9CF96C0072B6A2 /* SingleSelfRenderAd(单个自渲染广告) */ = {
+		CAE342092D9CF96C0072B6A2 /* SingleSelfRenderAd */ = {
 			isa = PBXGroup;
 			children = (
 				CAE342072D9CF96C0072B6A2 /* SelfRenderVC.h */,
 				CAE342082D9CF96C0072B6A2 /* SelfRenderVC.m */,
 			);
-			path = "SingleSelfRenderAd(单个自渲染广告)";
+			path = SingleSelfRenderAd;
 			sourceTree = "<group>";
 		};
-		CAE3420A2D9CF96C0072B6A2 /* Native(原生广告) */ = {
+		CAE3420A2D9CF96C0072B6A2 /* Native */ = {
 			isa = PBXGroup;
 			children = (
 				CAE341FE2D9CF96C0072B6A2 /* Resource */,
-				CAE342092D9CF96C0072B6A2 /* SingleSelfRenderAd(单个自渲染广告) */,
-				CAE342062D9CF96C0072B6A2 /* SingleExpressAd(单个模版广告) */,
-				CAE342032D9CF96C0072B6A2 /* SelfRenderView(自渲染视图) */,
+				CAE342092D9CF96C0072B6A2 /* SingleSelfRenderAd */,
+				CAE342062D9CF96C0072B6A2 /* SingleExpressAd */,
+				CAE342032D9CF96C0072B6A2 /* SelfRenderView */,
 			);
-			path = "Native(原生广告)";
+			path = Native;
 			sourceTree = "<group>";
 		};
-		CAE3420D2D9CF96C0072B6A2 /* RewardVideo(激励视频广告) */ = {
+		CAE3420D2D9CF96C0072B6A2 /* RewardVideo */ = {
 			isa = PBXGroup;
 			children = (
 				CAE3420B2D9CF96C0072B6A2 /* RewardedVC.h */,
 				CAE3420C2D9CF96C0072B6A2 /* RewardedVC.m */,
 			);
-			path = "RewardVideo(激励视频广告)";
+			path = RewardVideo;
 			sourceTree = "<group>";
 		};
-		CAE342192D9CF96C0072B6A2 /* Splash(开屏广告) */ = {
+		CAE342192D9CF96C0072B6A2 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
 				CAE342132D9CF96C0072B6A2 /* SplashVC.h */,
 				CAE342142D9CF96C0072B6A2 /* SplashVC.m */,
 			);
-			path = "Splash(开屏广告)";
+			path = Splash;
 			sourceTree = "<group>";
 		};
-		CAE3421A2D9CF96C0072B6A2 /* Ad(广告样式) */ = {
+		CAE3421A2D9CF96C0072B6A2 /* Ad */ = {
 			isa = PBXGroup;
 			children = (
-				CAE3420D2D9CF96C0072B6A2 /* RewardVideo(激励视频广告) */,
-				CAE342192D9CF96C0072B6A2 /* Splash(开屏广告) */,
-				CAE341D62D9CF96C0072B6A2 /* Banner(横幅广告) */,
-				CAE341DB2D9CF96C0072B6A2 /* Interstitial(插屏广告) */,
-				CAE3420A2D9CF96C0072B6A2 /* Native(原生广告) */,
+				CAE3420D2D9CF96C0072B6A2 /* RewardVideo */,
+				CAE342192D9CF96C0072B6A2 /* Splash */,
+				CAE341D62D9CF96C0072B6A2 /* Banner */,
+				CAE341DB2D9CF96C0072B6A2 /* Interstitial */,
+				CAE3420A2D9CF96C0072B6A2 /* Native */,
 			);
-			path = "Ad(广告样式)";
+			path = Ad;
 			sourceTree = "<group>";
 		};
-		CAE342292D9CF96C0072B6A2 /* Tools&Manager(工具和管理类) */ = {
+		CAE342292D9CF96C0072B6A2 /* Tools&Manager */ = {
 			isa = PBXGroup;
 			children = (
 				CAE342272D9CF96C0072B6A2 /* HyperBidAdManager.h */,
 				CAE342282D9CF96C0072B6A2 /* HyperBidAdManager.m */,
 			);
-			path = "Tools&Manager(工具和管理类)";
+			path = "Tools&Manager";
 			sourceTree = "<group>";
 		};
 		CAE3424A2D9CF9870072B6A2 /* Tools */ = {
@@ -439,12 +439,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAAEE8872D9BDEC100B68282 /* Build configuration list for PBXNativeTarget "HyperBidDemo" */;
 			buildPhases = (
-				9FDC87D758030CEEDB96F674 /* [CP] Check Pods Manifest.lock */,
+				87EFC8D6C9BDF3249DB4835C /* [CP] Check Pods Manifest.lock */,
 				CAAEE86B2D9BDEC000B68282 /* Sources */,
 				CAAEE86C2D9BDEC000B68282 /* Frameworks */,
 				CAAEE86D2D9BDEC000B68282 /* Resources */,
-				1E686E9CAB4759C144AF679B /* [CP] Embed Pods Frameworks */,
-				0F13D5805713486C85F49445 /* [CP] Copy Pods Resources */,
+				B6E64288CC3D5CF6BB51969D /* [CP] Embed Pods Frameworks */,
+				7733C81100EDFC86366EB6FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -505,7 +505,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F13D5805713486C85F49445 /* [CP] Copy Pods Resources */ = {
+		7733C81100EDFC86366EB6FA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -522,24 +522,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1E686E9CAB4759C144AF679B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9FDC87D758030CEEDB96F674 /* [CP] Check Pods Manifest.lock */ = {
+		87EFC8D6C9BDF3249DB4835C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -559,6 +542,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6E64288CC3D5CF6BB51969D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -626,7 +626,7 @@
 /* Begin XCBuildConfiguration section */
 		CAAEE8882D9BDEC100B68282 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1B3533247900458A46A9DE5 /* Pods-HyperBidDemo.debug.xcconfig */;
+			baseConfigurationReference = 0B91B06996DDB7B11AA03AB2 /* Pods-HyperBidDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -663,7 +663,7 @@
 		};
 		CAAEE8892D9BDEC100B68282 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76A06B1FAE202A7098315FB1 /* Pods-HyperBidDemo.release.xcconfig */;
+			baseConfigurationReference = 51A9E6DEED777E7C7CD6279B /* Pods-HyperBidDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
