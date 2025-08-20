@@ -78,14 +78,7 @@
     // Destroy ad - required step
     [self.interstitialAd destroyAd];
 }
-
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-    
-    // This simulates the scenario of completely destroying the ad when leaving this page, please call according to actual situation in your scenario
-    [self removeAd];
-}
-
+ 
 #pragma mark - MCRewardedAdDelegate
 // Ad loaded successfully
 - (void)didLoadAd:(MCAdInfo *)ad {

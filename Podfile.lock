@@ -1,7 +1,7 @@
 PODS:
-  - Adjust (5.4.1):
-    - Adjust/Adjust (= 5.4.1)
-  - Adjust/Adjust (5.4.1):
+  - Adjust (5.4.3):
+    - Adjust/Adjust (= 5.4.3)
+  - Adjust/Adjust (5.4.3):
     - AdjustSignature (= 3.47.0)
   - AdjustSignature (3.47.0)
   - Ads-Global (7.1.1.0):
@@ -76,9 +76,9 @@ PODS:
   - AppLovinMediationVerveAdapter (3.2.0.0):
     - AppLovinSDK (>= 13.0.0)
     - HyBid (= 3.2.0)
-  - AppLovinMediationVungleAdapter (7.5.0.0):
+  - AppLovinMediationVungleAdapter (7.5.1.4):
     - AppLovinSDK (>= 13.0.0)
-    - VungleAds (= 7.5.0)
+    - VungleAds (= 7.5.1)
   - AppLovinMediationYandexAdapter (7.12.1.0):
     - AppLovinSDK
     - YandexMobileAds (= 7.12.1)
@@ -86,77 +86,77 @@ PODS:
     - AppLovinSDK
     - YsoNetworkSDK (= 1.1.31)
   - AppLovinSDK (13.2.0)
-  - AppMetricaCore (5.11.1):
-    - AppMetricaCoreUtils (= 5.11.1)
-    - AppMetricaEncodingUtils (= 5.11.1)
-    - AppMetricaFMDB (= 5.11.1)
-    - AppMetricaHostState (= 5.11.1)
-    - AppMetricaIdentifiers (= 5.11.1)
-    - AppMetricaKeychain (= 5.11.1)
-    - AppMetricaLog (= 5.11.1)
-    - AppMetricaNetwork (= 5.11.1)
-    - AppMetricaPlatform (= 5.11.1)
-    - AppMetricaProtobuf (= 5.11.1)
-    - AppMetricaProtobufUtils (= 5.11.1)
-    - AppMetricaStorageUtils (= 5.11.1)
-  - AppMetricaCoreExtension (5.11.1):
-    - AppMetricaCore (= 5.11.1)
-    - AppMetricaStorageUtils (= 5.11.1)
-  - AppMetricaCoreUtils (5.11.1):
-    - AppMetricaLog (= 5.11.1)
-  - AppMetricaCrashes (5.11.1):
-    - AppMetricaCore (= 5.11.1)
-    - AppMetricaCoreExtension (= 5.11.1)
-    - AppMetricaCoreUtils (= 5.11.1)
-    - AppMetricaEncodingUtils (= 5.11.1)
-    - AppMetricaHostState (= 5.11.1)
-    - AppMetricaLog (= 5.11.1)
-    - AppMetricaPlatform (= 5.11.1)
-    - AppMetricaProtobufUtils (= 5.11.1)
-    - AppMetricaStorageUtils (= 5.11.1)
-    - KSCrash/Recording (< 2.1.0, >= 2.0.0)
-  - AppMetricaEncodingUtils (5.11.1):
-    - AppMetricaCoreUtils (= 5.11.1)
-    - AppMetricaLog (= 5.11.1)
-    - AppMetricaPlatform (= 5.11.1)
-  - AppMetricaFMDB (5.11.1)
-  - AppMetricaHostState (5.11.1):
-    - AppMetricaCoreUtils (= 5.11.1)
-    - AppMetricaLog (= 5.11.1)
-  - AppMetricaIdentifiers (5.11.1):
-    - AppMetricaKeychain (= 5.11.1)
-    - AppMetricaLogSwift (= 5.11.1)
-    - AppMetricaPlatform (= 5.11.1)
-    - AppMetricaStorageUtils (= 5.11.1)
-    - AppMetricaSynchronization (= 5.11.1)
-  - AppMetricaKeychain (5.11.1):
-    - AppMetricaCoreUtils (= 5.11.1)
-    - AppMetricaLog (= 5.11.1)
-    - AppMetricaStorageUtils (= 5.11.1)
-  - AppMetricaLibraryAdapter (5.11.1):
-    - AppMetricaCore (= 5.11.1)
-    - AppMetricaCoreExtension (= 5.11.1)
-  - AppMetricaLog (5.11.1)
-  - AppMetricaLogSwift (5.11.1):
-    - AppMetricaLog (= 5.11.1)
-  - AppMetricaNetwork (5.11.1):
-    - AppMetricaCoreUtils (= 5.11.1)
-    - AppMetricaLog (= 5.11.1)
-    - AppMetricaPlatform (= 5.11.1)
-  - AppMetricaPlatform (5.11.1):
-    - AppMetricaCoreUtils (= 5.11.1)
-    - AppMetricaLog (= 5.11.1)
-  - AppMetricaProtobuf (5.11.1)
-  - AppMetricaProtobufUtils (5.11.1):
-    - AppMetricaProtobuf (= 5.11.1)
-  - AppMetricaStorageUtils (5.11.1):
-    - AppMetricaCoreUtils (= 5.11.1)
-    - AppMetricaLog (= 5.11.1)
-  - AppMetricaSynchronization (5.11.1):
-    - AppMetricaLogSwift (= 5.11.1)
-  - AppsFlyerFramework (6.17.0):
-    - AppsFlyerFramework/Main (= 6.17.0)
-  - AppsFlyerFramework/Main (6.17.0)
+  - AppMetricaCore (5.12.1):
+    - AppMetricaCoreUtils (= 5.12.1)
+    - AppMetricaEncodingUtils (= 5.12.1)
+    - AppMetricaFMDB (= 5.12.1)
+    - AppMetricaHostState (= 5.12.1)
+    - AppMetricaIdentifiers (= 5.12.1)
+    - AppMetricaKeychain (= 5.12.1)
+    - AppMetricaLog (= 5.12.1)
+    - AppMetricaNetwork (= 5.12.1)
+    - AppMetricaPlatform (= 5.12.1)
+    - AppMetricaProtobuf (= 5.12.1)
+    - AppMetricaProtobufUtils (= 5.12.1)
+    - AppMetricaStorageUtils (= 5.12.1)
+  - AppMetricaCoreExtension (5.12.1):
+    - AppMetricaCore (= 5.12.1)
+    - AppMetricaStorageUtils (= 5.12.1)
+  - AppMetricaCoreUtils (5.12.1):
+    - AppMetricaLog (= 5.12.1)
+  - AppMetricaCrashes (5.12.1):
+    - AppMetricaCore (= 5.12.1)
+    - AppMetricaCoreExtension (= 5.12.1)
+    - AppMetricaCoreUtils (= 5.12.1)
+    - AppMetricaEncodingUtils (= 5.12.1)
+    - AppMetricaHostState (= 5.12.1)
+    - AppMetricaLog (= 5.12.1)
+    - AppMetricaPlatform (= 5.12.1)
+    - AppMetricaProtobufUtils (= 5.12.1)
+    - AppMetricaStorageUtils (= 5.12.1)
+    - KSCrash/Recording (< 2.2.0, >= 2.1.0)
+  - AppMetricaEncodingUtils (5.12.1):
+    - AppMetricaCoreUtils (= 5.12.1)
+    - AppMetricaLog (= 5.12.1)
+    - AppMetricaPlatform (= 5.12.1)
+  - AppMetricaFMDB (5.12.1)
+  - AppMetricaHostState (5.12.1):
+    - AppMetricaCoreUtils (= 5.12.1)
+    - AppMetricaLog (= 5.12.1)
+  - AppMetricaIdentifiers (5.12.1):
+    - AppMetricaKeychain (= 5.12.1)
+    - AppMetricaLogSwift (= 5.12.1)
+    - AppMetricaPlatform (= 5.12.1)
+    - AppMetricaStorageUtils (= 5.12.1)
+    - AppMetricaSynchronization (= 5.12.1)
+  - AppMetricaKeychain (5.12.1):
+    - AppMetricaCoreUtils (= 5.12.1)
+    - AppMetricaLog (= 5.12.1)
+    - AppMetricaStorageUtils (= 5.12.1)
+  - AppMetricaLibraryAdapter (5.12.1):
+    - AppMetricaCore (= 5.12.1)
+    - AppMetricaCoreExtension (= 5.12.1)
+  - AppMetricaLog (5.12.1)
+  - AppMetricaLogSwift (5.12.1):
+    - AppMetricaLog (= 5.12.1)
+  - AppMetricaNetwork (5.12.1):
+    - AppMetricaCoreUtils (= 5.12.1)
+    - AppMetricaLog (= 5.12.1)
+    - AppMetricaPlatform (= 5.12.1)
+  - AppMetricaPlatform (5.12.1):
+    - AppMetricaCoreUtils (= 5.12.1)
+    - AppMetricaLog (= 5.12.1)
+  - AppMetricaProtobuf (5.12.1)
+  - AppMetricaProtobufUtils (5.12.1):
+    - AppMetricaProtobuf (= 5.12.1)
+  - AppMetricaStorageUtils (5.12.1):
+    - AppMetricaCoreUtils (= 5.12.1)
+    - AppMetricaLog (= 5.12.1)
+  - AppMetricaSynchronization (5.12.1):
+    - AppMetricaLogSwift (= 5.12.1)
+  - AppsFlyerFramework (6.17.2):
+    - AppsFlyerFramework/Main (= 6.17.2)
+  - AppsFlyerFramework/Main (6.17.2)
   - ATOM-Standalone (3.5.0)
   - BidMachine (3.2.1):
     - BidMachine/Static (= 3.2.1)
@@ -241,6 +241,45 @@ PODS:
     - GoogleUtilities/Network (~> 8.1)
     - "GoogleUtilities/NSData+zlib (~> 8.1)"
     - nanopb (~> 3.30910.0)
+  - GoogleMobileAdsMediationAppLovin (13.2.0.0):
+    - AppLovinSDK (= 13.2.0)
+    - Google-Mobile-Ads-SDK (~> 12.0)
+  - GoogleMobileAdsMediationChartboost (9.8.1.0):
+    - ChartboostSDK (= 9.8.1)
+    - Google-Mobile-Ads-SDK (~> 12.0)
+  - GoogleMobileAdsMediationFacebook (6.17.1.0):
+    - FBAudienceNetwork (= 6.17.1)
+    - Google-Mobile-Ads-SDK (~> 12.0)
+  - GoogleMobileAdsMediationFyber (8.3.6.0):
+    - Fyber_Marketplace_SDK (= 8.3.6)
+    - Google-Mobile-Ads-SDK (~> 12.0)
+  - GoogleMobileAdsMediationInMobi (10.8.2.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - InMobiSDK (= 10.8.2)
+  - GoogleMobileAdsMediationIronSource (8.8.0.0.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - IronSourceSDK (= 8.8.0.0)
+  - GoogleMobileAdsMediationLine (2.9.20241106.3):
+    - FiveAd (= 2.9.20241106)
+    - Google-Mobile-Ads-SDK (~> 12.0)
+  - GoogleMobileAdsMediationMaio (2.1.6.1):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - MaioSDK-v2 (= 2.1.6)
+  - GoogleMobileAdsMediationMintegral (7.7.7.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - MintegralAdSDK/All (= 7.7.7)
+  - GoogleMobileAdsMediationMyTarget (5.29.1.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - myTargetSDK (= 5.29.1)
+  - GoogleMobileAdsMediationPangle (7.1.1.0.1):
+    - Ads-Global (= 7.1.1.0)
+    - Google-Mobile-Ads-SDK (~> 12.0)
+  - GoogleMobileAdsMediationUnity (4.14.2.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - UnityAds (= 4.14.2)
+  - GoogleMobileAdsMediationVungle (7.5.1.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - VungleAds (= 7.5.1)
   - GoogleUserMessagingPlatform (3.0.0)
   - GoogleUtilities/AppDelegateSwizzler (8.1.0):
     - GoogleUtilities/Environment
@@ -288,13 +327,16 @@ PODS:
     - HyBid/Core
   - HyBid/RewardedVideo (3.2.0):
     - HyBid/Core
-  - HyperbidToolsMCMaxAdapter (13.2.0.3):
+  - HyperbidToolsMCAdmobAdapter (12.3.0.2):
+    - Google-Mobile-Ads-SDK (= 12.3.0)
+    - HyperbidToolsMCSDK (~> 3.1)
+  - HyperbidToolsMCMaxAdapter (13.2.0.5):
     - AppLovinSDK (= 13.2.0)
     - HyperbidToolsMCSDK (~> 3.1)
-  - HyperbidToolsMCSDK (3.3.21)
-  - HyperbidToolsMCToponAdapter (6.4.76.1):
+  - HyperbidToolsMCSDK (3.6.10)
+  - HyperbidToolsMCToponAdapter (6.4.87.1):
     - HyperbidToolsMCSDK (~> 3.1)
-    - TPNiOS (= 6.4.76)
+    - TPNiOS (= 6.4.87)
   - HyprMX (6.4.2):
     - HyprMX/HyprMX-SDK (= 6.4.2)
   - HyprMX/Core (6.4.2)
@@ -302,10 +344,10 @@ PODS:
     - HyprMX/Core
   - InMobiSDK (10.8.2)
   - IronSourceSDK (8.8.0.0)
-  - KSCrash/Core (2.0.0)
-  - KSCrash/Recording (2.0.0):
+  - KSCrash/Core (2.1.2)
+  - KSCrash/Recording (2.1.2):
     - KSCrash/RecordingCore
-  - KSCrash/RecordingCore (2.0.0):
+  - KSCrash/RecordingCore (2.1.2):
     - KSCrash/Core
   - KwaiAdsSDK (1.1.0)
   - MaioSDK-v2 (2.1.6)
@@ -449,86 +491,86 @@ PODS:
     - StackModules/ProductPresentation-Static
     - StackModules/Rendering-Static
   - StartAppSDK (4.10.4)
-  - TPNAdmobSDKAdapter (6.4.76):
+  - TPNAdmobSDKAdapter (6.4.87):
     - Google-Mobile-Ads-SDK (= 12.3.0)
-    - TPNiOS (= 6.4.76)
-  - TPNApplovinSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNApplovinSDKAdapter (6.4.87):
     - AppLovinSDK (= 13.2.0)
-    - TPNiOS (= 6.4.76)
-  - TPNBidMachineSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNBidMachineSDKAdapter (6.4.87):
     - BidMachine (= 3.2.1)
-    - TPNiOS (= 6.4.76)
-  - TPNBigoSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNBigoSDKAdapter (6.4.87):
     - BigoADS (= 4.7.0)
-    - TPNiOS (= 6.4.76)
-  - TPNChartboostSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNChartboostSDKAdapter (6.4.87):
     - ChartboostMediationAdapterChartboost (= 4.9.8.0.1)
     - ChartboostMediationSDK (= 4.9.0.1)
     - ChartboostSDK (= 9.8.1)
-    - TPNiOS (= 6.4.76)
+    - TPNiOS (= 6.4.87)
   - TPNDebugUISDK (1.0.3):
     - TPNiOS (>= 6.3.61)
-  - TPNFacebookSDKAdapter (6.4.76):
+  - TPNFacebookSDKAdapter (6.4.87):
     - FBAudienceNetwork (= 6.17.1)
-    - TPNiOS (= 6.4.76)
-  - TPNFyberSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNFyberSDKAdapter (6.4.87):
     - Fyber_Marketplace_SDK (= 8.3.6)
-    - TPNiOS (= 6.4.76)
-  - TPNInmobiSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNInmobiSDKAdapter (6.4.87):
     - InMobiSDK (= 10.8.2)
-    - TPNiOS (= 6.4.76)
-  - TPNiOS (6.4.76):
-    - TPNiOS/TPNSDK (= 6.4.76)
-  - TPNiOS/TPNSDK (6.4.76)
-  - TPNIronSourceSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNiOS (6.4.87):
+    - TPNiOS/TPNSDK (= 6.4.87)
+  - TPNiOS/TPNSDK (6.4.87)
+  - TPNIronSourceSDKAdapter (6.4.87):
     - IronSourceSDK (= 8.8.0.0)
-    - TPNiOS (= 6.4.76)
-  - TPNKidozSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNKidozSDKAdapter (6.4.87):
     - AnyThinkKidozSDK (= 8.9.3)
-    - TPNiOS (= 6.4.76)
-  - TPNKwaiSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNKwaiSDKAdapter (6.4.87):
     - KwaiAdsSDK (= 1.1.0)
-    - TPNiOS (= 6.4.76)
-  - TPNMintegralSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNMintegralSDKAdapter (6.4.87):
     - MintegralAdSDK/All (= 7.7.7)
-    - TPNiOS (= 6.4.76)
-  - TPNMyTargetSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNMyTargetSDKAdapter (6.4.87):
     - myTargetSDK (= 5.29.1)
-    - TPNiOS (= 6.4.76)
-  - TPNPangleSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNPangleSDKAdapter (6.4.87):
     - Ads-Global (= 7.1.1.0)
-    - TPNiOS (= 6.4.76)
-  - TPNPubNativeSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNPubNativeSDKAdapter (6.4.87):
     - HyBid (= 3.2.0)
-    - TPNiOS (= 6.4.76)
-  - TPNSmaatoSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNSmaatoSDKAdapter (6.4.87):
     - smaato-ios-sdk (= 22.9.3)
     - smaato-ios-sdk/InApp
-    - TPNiOS (= 6.4.76)
-  - TPNStartAppSDKAdapter (6.4.76):
+    - TPNiOS (= 6.4.87)
+  - TPNStartAppSDKAdapter (6.4.87):
     - StartAppSDK (= 4.10.4)
-    - TPNiOS (= 6.4.76)
-  - TPNUnityAdsSDKAdapter (6.4.76):
-    - TPNiOS (= 6.4.76)
+    - TPNiOS (= 6.4.87)
+  - TPNUnityAdsSDKAdapter (6.4.87):
+    - TPNiOS (= 6.4.87)
     - UnityAds (= 4.14.2)
-  - TPNVungleSDKAdapter (6.4.76):
-    - TPNiOS (= 6.4.76)
-    - VungleAds (= 7.5.0)
-  - TPNYandexSDKAdapter (6.4.76):
-    - TPNiOS (= 6.4.76)
+  - TPNVungleSDKAdapter (6.4.87.1):
+    - TPNiOS (= 6.4.87)
+    - VungleAds (= 7.5.1)
+  - TPNYandexSDKAdapter (6.4.87):
+    - TPNiOS (= 6.4.87)
     - YandexMobileAds (= 7.12.1)
   - UnityAds (4.14.2)
-  - VGSL (7.4.1):
-    - VGSLFundamentals (= 7.4.1)
-    - VGSLNetworking (= 7.4.1)
-    - VGSLUI (= 7.4.1)
-  - VGSLFundamentals (7.4.1)
-  - VGSLNetworking (7.4.1):
-    - VGSLFundamentals (= 7.4.1)
-    - VGSLUI (= 7.4.1)
-  - VGSLUI (7.4.1):
-    - VGSLFundamentals (= 7.4.1)
-  - VungleAds (7.5.0)
+  - VGSL (7.7.1):
+    - VGSLFundamentals (= 7.7.1)
+    - VGSLNetworking (= 7.7.1)
+    - VGSLUI (= 7.7.1)
+  - VGSLFundamentals (7.7.1)
+  - VGSLNetworking (7.7.1):
+    - VGSLFundamentals (= 7.7.1)
+    - VGSLUI (= 7.7.1)
+  - VGSLUI (7.7.1):
+    - VGSLFundamentals (= 7.7.1)
+  - VungleAds (7.5.1)
   - YandexMobileAds (7.12.1):
     - AppMetricaCore (< 6.0.0, >= 5.8.0)
     - AppMetricaCrashes (< 6.0.0, >= 5.8.0)
@@ -560,38 +602,52 @@ DEPENDENCIES:
   - AppLovinMediationSmaatoAdapter (= 22.9.3.0)
   - AppLovinMediationUnityAdsAdapter (= 4.14.2.0)
   - AppLovinMediationVerveAdapter (= 3.2.0.0)
-  - AppLovinMediationVungleAdapter (= 7.5.0.0)
+  - AppLovinMediationVungleAdapter (= 7.5.1.4)
   - AppLovinMediationYandexAdapter (= 7.12.1.0)
   - AppLovinMediationYSONetworkAdapter (= 1.1.31.1)
   - AppsFlyerFramework
   - FirebaseAnalytics
-  - HyperbidToolsMCMaxAdapter (= 13.2.0.3)
-  - HyperbidToolsMCSDK (= 3.3.21)
-  - HyperbidToolsMCToponAdapter (= 6.4.76.1)
+  - GoogleMobileAdsMediationAppLovin (= 13.2.0.0)
+  - GoogleMobileAdsMediationChartboost (= 9.8.1.0)
+  - GoogleMobileAdsMediationFacebook (= 6.17.1.0)
+  - GoogleMobileAdsMediationFyber (= 8.3.6.0)
+  - GoogleMobileAdsMediationInMobi (= 10.8.2.0)
+  - GoogleMobileAdsMediationIronSource (= 8.8.0.0.0)
+  - GoogleMobileAdsMediationLine (= 2.9.20241106.3)
+  - GoogleMobileAdsMediationMaio (= 2.1.6.1)
+  - GoogleMobileAdsMediationMintegral (= 7.7.7.0)
+  - GoogleMobileAdsMediationMyTarget (= 5.29.1.0)
+  - GoogleMobileAdsMediationPangle (= 7.1.1.0.1)
+  - GoogleMobileAdsMediationUnity (= 4.14.2.0)
+  - GoogleMobileAdsMediationVungle (= 7.5.1.0)
+  - HyperbidToolsMCAdmobAdapter (= 12.3.0.2)
+  - HyperbidToolsMCMaxAdapter (= 13.2.0.5)
+  - HyperbidToolsMCSDK (= 3.6.10)
+  - HyperbidToolsMCToponAdapter (= 6.4.87.1)
   - Masonry
   - MJRefresh
   - SDWebImage
-  - TPNAdmobSDKAdapter (= 6.4.76)
-  - TPNApplovinSDKAdapter (= 6.4.76)
-  - TPNBidMachineSDKAdapter (= 6.4.76)
-  - TPNBigoSDKAdapter (= 6.4.76)
-  - TPNChartboostSDKAdapter (= 6.4.76)
+  - TPNAdmobSDKAdapter (= 6.4.87)
+  - TPNApplovinSDKAdapter (= 6.4.87)
+  - TPNBidMachineSDKAdapter (= 6.4.87)
+  - TPNBigoSDKAdapter (= 6.4.87)
+  - TPNChartboostSDKAdapter (= 6.4.87)
   - TPNDebugUISDK (= 1.0.3)
-  - TPNFacebookSDKAdapter (= 6.4.76)
-  - TPNFyberSDKAdapter (= 6.4.76)
-  - TPNInmobiSDKAdapter (= 6.4.76)
-  - TPNIronSourceSDKAdapter (= 6.4.76)
-  - TPNKidozSDKAdapter (= 6.4.76)
-  - TPNKwaiSDKAdapter (= 6.4.76)
-  - TPNMintegralSDKAdapter (= 6.4.76)
-  - TPNMyTargetSDKAdapter (= 6.4.76)
-  - TPNPangleSDKAdapter (= 6.4.76)
-  - TPNPubNativeSDKAdapter (= 6.4.76)
-  - TPNSmaatoSDKAdapter (= 6.4.76)
-  - TPNStartAppSDKAdapter (= 6.4.76)
-  - TPNUnityAdsSDKAdapter (= 6.4.76)
-  - TPNVungleSDKAdapter (= 6.4.76)
-  - TPNYandexSDKAdapter (= 6.4.76)
+  - TPNFacebookSDKAdapter (= 6.4.87)
+  - TPNFyberSDKAdapter (= 6.4.87)
+  - TPNInmobiSDKAdapter (= 6.4.87)
+  - TPNIronSourceSDKAdapter (= 6.4.87)
+  - TPNKidozSDKAdapter (= 6.4.87)
+  - TPNKwaiSDKAdapter (= 6.4.87)
+  - TPNMintegralSDKAdapter (= 6.4.87)
+  - TPNMyTargetSDKAdapter (= 6.4.87)
+  - TPNPangleSDKAdapter (= 6.4.87)
+  - TPNPubNativeSDKAdapter (= 6.4.87)
+  - TPNSmaatoSDKAdapter (= 6.4.87)
+  - TPNStartAppSDKAdapter (= 6.4.87)
+  - TPNUnityAdsSDKAdapter (= 6.4.87)
+  - TPNVungleSDKAdapter (= 6.4.87.1)
+  - TPNYandexSDKAdapter (= 6.4.87)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -665,9 +721,23 @@ SPEC REPOS:
     - Google-Mobile-Ads-SDK
     - GoogleAdsOnDeviceConversion
     - GoogleAppMeasurement
+    - GoogleMobileAdsMediationAppLovin
+    - GoogleMobileAdsMediationChartboost
+    - GoogleMobileAdsMediationFacebook
+    - GoogleMobileAdsMediationFyber
+    - GoogleMobileAdsMediationInMobi
+    - GoogleMobileAdsMediationIronSource
+    - GoogleMobileAdsMediationLine
+    - GoogleMobileAdsMediationMaio
+    - GoogleMobileAdsMediationMintegral
+    - GoogleMobileAdsMediationMyTarget
+    - GoogleMobileAdsMediationPangle
+    - GoogleMobileAdsMediationUnity
+    - GoogleMobileAdsMediationVungle
     - GoogleUserMessagingPlatform
     - GoogleUtilities
     - HyBid
+    - HyperbidToolsMCAdmobAdapter
     - HyperbidToolsMCMaxAdapter
     - HyperbidToolsMCSDK
     - HyperbidToolsMCToponAdapter
@@ -727,7 +797,7 @@ SPEC REPOS:
     - YsoNetworkSDK
 
 SPEC CHECKSUMS:
-  Adjust: 1ff981e84ae1306f8cce30e0661b3997dad1b85c
+  Adjust: c45e9ad1074b970df6ab78b1c2d17fd0338b4645
   AdjustSignature: d634fc6b66295c38807f3b4e50978c1f72355950
   Ads-Global: a37caba17e88311462278dd2e2b0d3a5dcbbfce2
   AnyThinkKidozSDK: 5c3e08babac895077c886fc902aa00e40f8b2e76
@@ -753,29 +823,29 @@ SPEC CHECKSUMS:
   AppLovinMediationSmaatoAdapter: a8de5f0e305bac2968f35e46e90883514dc67c17
   AppLovinMediationUnityAdsAdapter: 4e4045a920c11e08ba16208aeffa38cc6c3d7376
   AppLovinMediationVerveAdapter: a328d229a9b8d8e7ccd0d738a814467e1f47ca83
-  AppLovinMediationVungleAdapter: 0d153ed60b79cb913ed0d46e9d283c6192e2f18f
+  AppLovinMediationVungleAdapter: 6297cfa657e840693938a971550adaab1e4dec31
   AppLovinMediationYandexAdapter: 37c35ea068b270d0802818d4f79417147a28e382
   AppLovinMediationYSONetworkAdapter: 98be0b328ba7e5a16cf809e426505c3cddeadcad
   AppLovinSDK: 1eb88a82b4feea9f3696ce9cc1e3343c4997ee12
-  AppMetricaCore: 6ad500da8cf891cf1ae4dadb8593dc127cd28c95
-  AppMetricaCoreExtension: 376d3c84742f90901b44b78988f9ca5f57272f6e
-  AppMetricaCoreUtils: ad4c88c5338e3aa6668f1f0de282d97306487c79
-  AppMetricaCrashes: 527e0bae11138491f7a698ab5784383056f65983
-  AppMetricaEncodingUtils: f282281e52824b5584a9994946b6f6f9725970c3
-  AppMetricaFMDB: 7f13f0ddc2203ac593db96baa807783956904efc
-  AppMetricaHostState: 0638b8433d70d001b47a44fade6b51e465fc9626
-  AppMetricaIdentifiers: e75d45cbb3b422531aa15a01e34fa8b7a0a1ec37
-  AppMetricaKeychain: 260ca4557d917a4b238b753ec7e07a82946eedbf
-  AppMetricaLibraryAdapter: 124fd62cccdba9decdf0d408690a9f4c604c79ab
-  AppMetricaLog: bd20a91993f0faa4f506c71e77df941225ae2114
-  AppMetricaLogSwift: 778a1d0d50b9230393d2224cf923d6171dcfc1ba
-  AppMetricaNetwork: 74d5c233a26a5938f25f074103b781599535be7e
-  AppMetricaPlatform: a55be9f074688addfdbea57f64287286651e6158
-  AppMetricaProtobuf: c3d320e26751c1d324009a93d7fd6336e5125e08
-  AppMetricaProtobufUtils: f02b5e26d31b20407b5a9834f00502e65e6bee20
-  AppMetricaStorageUtils: d9402ed21182a084b7904e30e5ced73214fe6780
-  AppMetricaSynchronization: 032608cc112d218c249835f6555879797e9f8381
-  AppsFlyerFramework: 34cef9f9653f4fd01c27d4d87784425b9271f82f
+  AppMetricaCore: 145ddc416db0a7eead339de9a5e1521863426a1b
+  AppMetricaCoreExtension: 1fc4222eef017e25e8f89c5b02b8563179a40d13
+  AppMetricaCoreUtils: 9e23195da2dc2d76404ac49592e05f1dd276d1e8
+  AppMetricaCrashes: 41d7e00fc2da7ca9c8de670546d65635c81ff821
+  AppMetricaEncodingUtils: 02f48c8d45b7883c4e2a85d49ec3a66a39fd4f6d
+  AppMetricaFMDB: 482767dda08c9cec7c8d115d423aacb6b21e9e89
+  AppMetricaHostState: 447bc4c02107b3531ae77fc91ea200ddc32bb029
+  AppMetricaIdentifiers: 1c34f28d8650c4c5c931643ac8779f431e809c9f
+  AppMetricaKeychain: 76f4afe269b233c1a2493350712d24c4d18858b8
+  AppMetricaLibraryAdapter: f9a428c799b5d979bf8f1fc524e58a7a3d81026c
+  AppMetricaLog: 84a50f144c83a7de66778dfa990db0ac1d60e10c
+  AppMetricaLogSwift: 3ca89a024f3c8c7b09f4b2ce89a6e7ce65b3b7d6
+  AppMetricaNetwork: e8ba646d4408e2b62e272f8b49c66ffda103bfbd
+  AppMetricaPlatform: 543e24bd127eb94c14a708770980f9203e9403b4
+  AppMetricaProtobuf: 437a155c3ea82c7fc9a5f8ff5037c513a2287225
+  AppMetricaProtobufUtils: f8bf3222d88f466363a657dd14b575af16327d81
+  AppMetricaStorageUtils: e10b5fbf8c8d9125ad200a360c9e95e53c7a0f3c
+  AppMetricaSynchronization: 3c019f1c791e11f80de51cacda4b2ed4b20935a8
+  AppsFlyerFramework: 3e48c87fd356e7cbf09b87e176c0b04dc42f95fe
   ATOM-Standalone: c6f8d00c510cdeec33aa95cdf1f31d78b62d0aa7
   BidMachine: 48529ae35f438e48708882e08426b907434eeee9
   BigoADS: 8f0cee203e50095cc4d43dc5067695fc32eb094f
@@ -797,16 +867,30 @@ SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: 01b1b77e0bdba8b4027ae62e9bd52e5a95d930aa
   GoogleAdsOnDeviceConversion: 2be6297a4f048459e0ae17fad9bfd2844e10cf64
   GoogleAppMeasurement: 700dce7541804bec33db590a5c496b663fbe2539
+  GoogleMobileAdsMediationAppLovin: 84f9181ab13ad890f1280710150afc4454e32fa3
+  GoogleMobileAdsMediationChartboost: 2c49fe89ae5998544c6494d9c8c4b6d0eb457226
+  GoogleMobileAdsMediationFacebook: 750a2c14ce0bdf813e4e1d4ab4aa283f72f8a875
+  GoogleMobileAdsMediationFyber: e4953a753de1c6bcb4f49b4b7475a39e9b02844a
+  GoogleMobileAdsMediationInMobi: 5e8eb7078044213f49a7a34f0d9fe8edbdf7f979
+  GoogleMobileAdsMediationIronSource: fd3c9a3986e61cbae0cb3a413518284c9ac4e9d9
+  GoogleMobileAdsMediationLine: 4fee7ead0503183c525a722b21cd8b9e853dafc4
+  GoogleMobileAdsMediationMaio: 5e76be46406d8c60b7d67f7bd323c3a8bce0cdc8
+  GoogleMobileAdsMediationMintegral: 5e4e9c04617d9c3c6a2af4065a1e442d2b04bcd3
+  GoogleMobileAdsMediationMyTarget: bc6560d65584a6857f2b5716377dbe6c10ad57c4
+  GoogleMobileAdsMediationPangle: 6ebf2dd8edfdcf0839024f1541062abe41e06b99
+  GoogleMobileAdsMediationUnity: 7beb7c5375d3a747c8f4d9149df280725d06027a
+  GoogleMobileAdsMediationVungle: ac53b75b6b6cc1e1acf670e773522be909dcf18a
   GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
   GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
   HyBid: 575a647ce48fb4ed40dab1a1ce203b1ae0cdb294
-  HyperbidToolsMCMaxAdapter: 7d156c1de814406104af5c750296facecc11b250
-  HyperbidToolsMCSDK: 1103a0bc8b71b79040cf68dbcf9806945d3ed89f
-  HyperbidToolsMCToponAdapter: 5467cf2c2dfda1c26ab2f9981fead5be486cabd5
+  HyperbidToolsMCAdmobAdapter: 2227da8ed82c32169ae55f7a4c3984021e9d8877
+  HyperbidToolsMCMaxAdapter: c5416b17e51a8e60a6a6cdce86573e6c19854e98
+  HyperbidToolsMCSDK: 64dd1c4804e29a36f342107f2f56cde3d0b8fa71
+  HyperbidToolsMCToponAdapter: 912481877648dc359f89d73c113fe7fdb1a9bf6a
   HyprMX: 225ce649cfc0018513661be11d7303011b7be5e9
   InMobiSDK: bf6bc10caae18237d097755d19ff5441f146f9c7
   IronSourceSDK: ff0b14630899756847f7608a75182f10f022e5ef
-  KSCrash: ad271a7799f0a2841be0fb7d6bd105444c440832
+  KSCrash: bd950ede6c40a50bfc9f246c38a7f3408705fa3c
   KwaiAdsSDK: bd892c25788db912560df8dcc17711f32a742509
   MaioSDK-v2: 02780811845ba7dff080c9b92b6a5d29484ac777
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -827,37 +911,37 @@ SPEC CHECKSUMS:
   smaato-ios-sdk: afa210ca22398b9ae75fddc921472b05e0bb3d37
   StackModules: e2f19291e90a7f7ce502153d61936f66d18d6a35
   StartAppSDK: dacab2f76b584fa2c04c25b65fb7a84f394c7030
-  TPNAdmobSDKAdapter: 39ae33483134e2869a575e09c463400291042103
-  TPNApplovinSDKAdapter: f49d08340dba12dc2b493ae8950d46d47ffd08e3
-  TPNBidMachineSDKAdapter: 243d550645f17885950fbef68f02f3f29f95ae36
-  TPNBigoSDKAdapter: 78c6c0b02faa1a6ad62180922b67a7b2353fa50c
-  TPNChartboostSDKAdapter: abb388e39e77386157affb92ff991ade7e1921ed
+  TPNAdmobSDKAdapter: 054c16ac2d1411121059c6f67547a93d3d6bbb3a
+  TPNApplovinSDKAdapter: af2221b1d78874ba9a0a71165c7b9a8eb30aa33e
+  TPNBidMachineSDKAdapter: 2ca263cad466cc5dbfd6275e0f57c73aac2c9b16
+  TPNBigoSDKAdapter: f527b7a8cefca802347532437587a60732b3abe3
+  TPNChartboostSDKAdapter: d889bc246186934ba7067213564c6cef52cb6186
   TPNDebugUISDK: 68d077587dcdb4eab973ee58609ca931dbe12e85
-  TPNFacebookSDKAdapter: 5dd94720edf03316e6f6505e970b62e07a80bfe0
-  TPNFyberSDKAdapter: 7e4d52566f3d1e99ddffef626b0ce208bf6fdceb
-  TPNInmobiSDKAdapter: fcd08f55875faa220a21b5d920445ec500f06276
-  TPNiOS: 1b19f54b097912acf89dd41821605cc366432756
-  TPNIronSourceSDKAdapter: 632739c889c7a52174c8e3f5e912b99a2db489c0
-  TPNKidozSDKAdapter: 7945f320682467e801911040a57cdd330a52ab1d
-  TPNKwaiSDKAdapter: eaa1e9aed43cb46bf3da362866cbe91145557f02
-  TPNMintegralSDKAdapter: 67df075118c7268031c545b62e2216bba569cb22
-  TPNMyTargetSDKAdapter: b13f7bc7f19f0044d15541257e191290024bcd59
-  TPNPangleSDKAdapter: d96656537c9718581142e2885c2c8108a3698a51
-  TPNPubNativeSDKAdapter: b635f24748612285a40dcc3386c1c492af817baa
-  TPNSmaatoSDKAdapter: ef390726e4ec416b931a0c3363528a7653f3fc09
-  TPNStartAppSDKAdapter: df1a687c5c2896869542ca0ed36318e366e0ea47
-  TPNUnityAdsSDKAdapter: 655206a266b48be72e24db08fc08d83d88459ccb
-  TPNVungleSDKAdapter: 15aa9b622b4ab59eb7a9f95d5c052d674483b585
-  TPNYandexSDKAdapter: e954b4dc7f46eb0709c94f365c90543b1904745c
+  TPNFacebookSDKAdapter: 8f09f48e8c97cd7aff0e76f1cc5a98155a10c827
+  TPNFyberSDKAdapter: 6eb498623c901973155cf13bd61c880f5e5b19f7
+  TPNInmobiSDKAdapter: 6b99a8f325664da6476cdd79d654cd82c9648292
+  TPNiOS: 9c09ef73659b1e3ff234e0998c27507b53859376
+  TPNIronSourceSDKAdapter: 2d5d85785e4ed03558ec1186de56f5ff7923873d
+  TPNKidozSDKAdapter: e68681bd58afe1a0bc335dc5e7eb9e7a831443dc
+  TPNKwaiSDKAdapter: cec204c7567516d319853fc016fc6fb17951d95b
+  TPNMintegralSDKAdapter: 6fb297ee5cb670be6ee1483888980c5a94b3e7fd
+  TPNMyTargetSDKAdapter: c02c02d27862df24d7572ef9fb524836bceb1263
+  TPNPangleSDKAdapter: 6b7be0cd8bd9311d3f009f8474a90afe234fd7e2
+  TPNPubNativeSDKAdapter: e5631758ab054fff23df2fc8fa2321e841c2e0da
+  TPNSmaatoSDKAdapter: 69e51496d0abd1a071923f1eb1b478bbb1ce5b8d
+  TPNStartAppSDKAdapter: 332b113524a9f62dfaea17c9fb880843d1bf8b69
+  TPNUnityAdsSDKAdapter: 7b3be654294a837a776d83f32a370085cab3e122
+  TPNVungleSDKAdapter: 8adc7fbba5d5da95c89c30d9869ecfa3b3ff6441
+  TPNYandexSDKAdapter: 69c6b24910ec70ba7a3754223b311ab7e490b378
   UnityAds: eabbbb3014326e45dc221a467fba16960e7b73e3
-  VGSL: 0e1bca3337cea32c04d06555f63e4d8e697f7c2e
-  VGSLFundamentals: 046a0e744998e5cb2e43f0d08c9f67787f5538de
-  VGSLNetworking: 0fb7050ad976e2c3bdf71e6ffda9b5027cabca37
-  VGSLUI: c34eea6868f055a94e1be6b1fc2d09f14879dd4c
-  VungleAds: cb2aa4791ba4f341c6c026d44cc43eabe258890f
+  VGSL: 0b95033d99a391877abf6106f15784343eafdaa8
+  VGSLFundamentals: 0dd050319bbdcaa3ee4152216b78aef9c0a5b36e
+  VGSLNetworking: f5569e14a60390842d4aa69dfa0cfab20bb82710
+  VGSLUI: ca0d7513c35e0c2db984e082930c783f31c84aef
+  VungleAds: f7143149d6160211c6d462453adce125160e4283
   YandexMobileAds: 5555d134390d7009f7a2b1b69f2a8deb656c8fe3
   YsoNetworkSDK: dece34b4a8fdfa85e0ac73a9d22e5df068351669
 
-PODFILE CHECKSUM: 0428759a1a454da16fb68309687703a5c08e361f
+PODFILE CHECKSUM: 2d8724bde9257435571a9e76e6a9e7b0a162fbd6
 
 COCOAPODS: 1.16.2

@@ -2,3 +2,4 @@
 HyperBidDemo/Podfile.lock
 /Pods
 *.xcworkspace
+*.lock

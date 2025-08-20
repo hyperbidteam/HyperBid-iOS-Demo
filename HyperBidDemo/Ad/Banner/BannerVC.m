@@ -106,13 +106,7 @@
         self.hasLoaded = NO;
     }
 }
-
-// Simulate removing banner when leaving the page
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-    [self removeAd];
-}
-
+ 
 #pragma mark - MCRewardedAdDelegate
 // Load successful
 - (void)didLoadAd:(MCAdInfo *)ad {
