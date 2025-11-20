@@ -31,11 +31,11 @@
         //初始化广告SDK完成
         
         //加载开屏广告
-        [[HyperBidAdManager sharedManager] loadSplashAdWithPlacementID:FirstAppOpen_PlacementID result:^(BOOL isSuccess) {
+        [[HyperBidAdManager sharedManager] loadSplashAdWithPlacementID:Hyperbid_iOS_splash result:^(BOOL isSuccess) {
             //加载成功
             if (isSuccess) {
                 //展示开屏广告
-                [[HyperBidAdManager sharedManager] showSplashWithPlacementID:FirstAppOpen_PlacementID inController:self.window.rootViewController];
+                [[HyperBidAdManager sharedManager] showSplashWithPlacementID:Hyperbid_iOS_splash inController:self.window.rootViewController];
             }
         }];
     } privacySettingsEnable:YES];

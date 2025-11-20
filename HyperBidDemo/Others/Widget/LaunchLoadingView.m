@@ -1,6 +1,6 @@
 //
 //  LaunchLoadingView.m
-//  TPNiOSDemo
+//  HyperBidDemo
 //
 //  Created by HyperBid Tech Support on 2025/1/18.
 //

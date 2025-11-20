@@ -1,6 +1,6 @@
 //
 //  HyperBidAdManager.m
-//  TPNiOSDemo
+//  HyperBidDemo
 //
 //  Created by HyperBid Tech Support on 2025/3/26.
 //
@@ -48,8 +48,8 @@ static HyperBidAdManager *sharedManager = nil;
     [self globalSDKConfig];
     // init SDK
     MCInitConfig *config = [[MCInitConfig alloc] init];
-    config.appId = kTopOnAppID;
-    config.appKey = kTopOnAppKey;
+    config.appId = kHyperBidAppID;
+    config.appKey = kHyperBidAppKey;
     // Set preset strategy
 //    config.defaultStrategyPath = [[NSBundle mainBundle] pathForResource:@"DefaultAppSettings" ofType:nil];
     // When requesting online strategy for the first time, how long to wait before using local default preset strategy, default 0, no waiting

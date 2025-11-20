@@ -1,6 +1,6 @@
 //
 //  HyperBidAdManager.h
-//  TPNiOSDemo
+//  HyperBidDemo
 //
 //  Created by HyperBid Tech Support on 2025/3/26.
 //
@@ -16,17 +16,14 @@ typedef void (^HyperBidAdManagerInitFinishBlock)(void);
 typedef void (^HyperBidAdManagerSplashAdLoadBlock)(BOOL isSuccess);
 
 // Application ID in HyperBid dashboard
-#define kTopOnAppID  @"j1d267153c917436"
+#define kHyperBidAppID  @"j69de0de8bab7556"
 
 // Application-level AppKey or account-level AppKey in HyperBid dashboard
-#define kTopOnAppKey @"7eae0567827cfe2b22874061763f30c9"
+#define kHyperBidAppKey @"j17a48b9fc6faa4120a5e1be789b2fc889a43a1c0"
 
 // Cold start splash timeout duration
 #define FirstAppOpen_Timeout 8
-
-// Cold start splash ad placement ID
-#define FirstAppOpen_PlacementID @"k0576b7865e7e37b"
-
+ 
 @interface HyperBidAdManager : NSObject
 
 + (instancetype)sharedManager;
