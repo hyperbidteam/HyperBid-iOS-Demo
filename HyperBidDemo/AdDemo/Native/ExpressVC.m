@@ -26,8 +26,8 @@
 // Scene ID, optional, can be generated in the dashboard. Pass empty string if not available
 #define Native_Express_SceneID @""
 
-#define ExpressAdWidth (400.f)
-#define ExpressAdHeight (300.f)
+#define ExpressAdWidth (kScreenW)
+#define ExpressAdHeight (180.f)
  
 #pragma mark - Load Ad
 /// Load ad button clicked
@@ -36,7 +36,7 @@
     
     // Load native ad - required step
     if (!self.nativeAdLoader) {
-        MCNativeAdLoader *nativeAdLoader = [[MCNativeAdLoader alloc] initWithPlacementId:Hyperbid_iOS_native];
+        MCNativeAdLoader *nativeAdLoader = [[MCNativeAdLoader alloc] initWithPlacementId:Hyperbid_iOS_native_express];
         self.nativeAdLoader = nativeAdLoader;
     }
     self.nativeAdLoader.delegate = self;

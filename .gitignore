@@ -1,5 +1,4 @@
 *.DS_Store
-HyperBidDemo/Podfile.lock
 /Pods
 *.xcworkspace
-*.lock
+Podfile.lock

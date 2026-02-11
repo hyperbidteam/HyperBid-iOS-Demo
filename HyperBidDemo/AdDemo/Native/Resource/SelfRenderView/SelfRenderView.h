@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AnyThinkNative/AnyThinkNative.h>
 #import <MCSDK/MCSDK.h>
 
 #define SelfRenderViewWidth (kScreenW)

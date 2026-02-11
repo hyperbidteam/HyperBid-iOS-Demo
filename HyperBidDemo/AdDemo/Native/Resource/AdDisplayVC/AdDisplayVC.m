@@ -10,31 +10,21 @@
 
 @interface AdDisplayVC ()
 
-@property (nonatomic, weak) ATNativeADView *adView;
+@property (nonatomic, weak) MCNativeAdView *adView;
 @property (nonatomic, strong) UIButton *voiceChange;
 @property (nonatomic, strong) UIButton *voiceProgress;
 @property (nonatomic, strong) UIButton *voicePause;
 @property (nonatomic, strong) UIButton *voicePlay;
 @property(nonatomic, assign) BOOL mute;
 @property(nonatomic, assign) BOOL isPlaying;
-@property(nonatomic, strong) ATNativeAdOffer *adOffer;
 @property (assign, nonatomic) CGSize adSize;
 @property(nonatomic, strong) UIView *adShowView;
 
 @end
 
 @implementation AdDisplayVC
-
-- (instancetype)initWithAdView:(ATNativeADView *)adView offer:(ATNativeAdOffer *)offer adViewSize:(CGSize)size {
-    if (self = [super init]) {
-        _adOffer = offer;
-        _adView = adView;
-        _adSize = size;
-    }
-    return self;
-}
-
-- (instancetype)initWithAdView:(UIView *)adView adViewSize:(CGSize)size {
+ 
+- (instancetype)initWithAdView:(MCNativeAdView *)adView adViewSize:(CGSize)size {
     if (self = [super init]) {
         _adShowView = adView;
         _adSize = size;
@@ -63,8 +53,7 @@
     [self.view addSubview:self.voicePause];
     [self.view addSubview:self.voicePlay];
     [self.view addSubview:self.adShowView];
-    
-    //再布局调整位置与大小，与之前设置的一致
+     
     [self.adShowView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.nbar.mas_bottom).mas_offset(15);
         make.centerX.mas_equalTo(self.view);
@@ -104,20 +93,18 @@
 #pragma mark - Action
 - (void)clickChange
 {
-    ATDemoLog(@"AdDisplayVC:getNativeAdType:%ld,getCurrentNativeAdRenderType:%ld",[self.adView getNativeAdType],[self.adView getCurrentNativeAdRenderType]);
-    [self.adView muteEnable:self.mute];
+//    [self.adView muteEnable:self.mute];
     self.mute = !self.mute;
 }
 
 - (void)clickProgress
 {
-    ATDemoLog(@"AdDisplayVC:videoDuration:%f,videoPlayTime:%f",[self.adView videoDuration],[self.adView videoPlayTime]);
-}
+ }
 
 - (void)clickPause
 {
     if (self.isPlaying) {
-        [self.adView videoPause];
+//        [self.adView videoPause];
         self.isPlaying = NO;
     }
 }
@@ -125,7 +112,7 @@
 - (void)clickPlay
 {
     if (!self.isPlaying) {
-        [self.adView videoPlay];
+//        [self.adView videoPlay];
         self.isPlaying = YES;
     }
 }

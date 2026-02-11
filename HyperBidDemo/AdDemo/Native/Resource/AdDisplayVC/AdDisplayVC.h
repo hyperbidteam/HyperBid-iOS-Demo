@@ -7,11 +7,10 @@
 
 #import "BannerVC.h"
 
-#import <AnyThinkNative/AnyThinkNative.h>
+#import <MCSDK/MCSDK.h>
  
 @interface AdDisplayVC : BaseVC
-
-- (instancetype)initWithAdView:(ATNativeADView *)adView offer:(ATNativeAdOffer *)offer adViewSize:(CGSize)size;
-- (instancetype)initWithAdView:(UIView *)adView adViewSize:(CGSize)size;
+ 
+- (instancetype)initWithAdView:(MCNativeAdView *)adView adViewSize:(CGSize)size;
 
 @end

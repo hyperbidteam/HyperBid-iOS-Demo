@@ -8,15 +8,11 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
-@class ATNativeAdOffer;
-@interface Tools : NSObject
-
-+ (NSDictionary *)getOfferInfo:(ATNativeAdOffer *)nativeAdOffer;
-
-+ (NSString *)getIdfaString;
  
-
+@interface Tools : NSObject
+ 
++ (NSString *)getIdfaString;
+  
 @end
 
 NS_ASSUME_NONNULL_END

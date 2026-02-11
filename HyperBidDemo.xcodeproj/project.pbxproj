@@ -21,27 +21,18 @@
 		CAE341CA2D9CF8D80072B6A2 /* LocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341B72D9CF8D80072B6A2 /* LocalizationManager.m */; };
 		CAE341CB2D9CF8D80072B6A2 /* WildClickButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341C62D9CF8D80072B6A2 /* WildClickButton.m */; };
 		CAE341CC2D9CF8D80072B6A2 /* NaviBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341C02D9CF8D80072B6A2 /* NaviBarView.m */; };
-		CAE341CD2D9CF8D80072B6A2 /* LaunchLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341BE2D9CF8D80072B6A2 /* LaunchLoadingView.m */; };
 		CAE341CE2D9CF8D80072B6A2 /* TwoButtonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341C42D9CF8D80072B6A2 /* TwoButtonAlertView.m */; };
 		CAE341CF2D9CF8D80072B6A2 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341BC2D9CF8D80072B6A2 /* CustomTableViewCell.m */; };
 		CAE341D32D9CF9590072B6A2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341D12D9CF9590072B6A2 /* HomeViewController.m */; };
-		CAE3422B2D9CF96C0072B6A2 /* DemoOfferAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341FC2D9CF96C0072B6A2 /* DemoOfferAdModel.m */; };
 		CAE3422C2D9CF96C0072B6A2 /* SplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE342142D9CF96C0072B6A2 /* SplashVC.m */; };
 		CAE3422D2D9CF96C0072B6A2 /* AdDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341E92D9CF96C0072B6A2 /* AdDisplayVC.m */; };
-		CAE3422E2D9CF96C0072B6A2 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341F42D9CF96C0072B6A2 /* CustomCell.m */; };
 		CAE342302D9CF96C0072B6A2 /* ExpressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE342052D9CF96C0072B6A2 /* ExpressVC.m */; };
 		CAE342312D9CF96C0072B6A2 /* BannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341D52D9CF96C0072B6A2 /* BannerVC.m */; };
 		CAE342342D9CF96C0072B6A2 /* SelfRenderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE342082D9CF96C0072B6A2 /* SelfRenderVC.m */; };
-		CAE342362D9CF96C0072B6A2 /* HyperBidAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE342282D9CF96C0072B6A2 /* HyperBidAdManager.m */; };
 		CAE342392D9CF96C0072B6A2 /* InterstitialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341D82D9CF96C0072B6A2 /* InterstitialVC.m */; };
-		CAE3423C2D9CF96C0072B6A2 /* DrawCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341EE2D9CF96C0072B6A2 /* DrawCustomCell.m */; };
 		CAE3423D2D9CF96C0072B6A2 /* RewardedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3420C2D9CF96C0072B6A2 /* RewardedVC.m */; };
 		CAE3423F2D9CF96C0072B6A2 /* SelfRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE342022D9CF96C0072B6A2 /* SelfRenderView.m */; };
 		CAE342412D9CF96C0072B6A2 /* NativeTypeSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341F92D9CF96C0072B6A2 /* NativeTypeSelectVC.m */; };
-		CAE342442D9CF96C0072B6A2 /* DrawAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341EC2D9CF96C0072B6A2 /* DrawAdCell.m */; };
-		CAE342452D9CF96C0072B6A2 /* AdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE341F22D9CF96C0072B6A2 /* AdCell.m */; };
-		CAE342462D9CF96C0072B6A2 /* DrawCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE341EF2D9CF96C0072B6A2 /* DrawCustomCell.xib */; };
-		CAE342472D9CF96C0072B6A2 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE341F52D9CF96C0072B6A2 /* CustomCell.xib */; };
 		CAE3424B2D9CF9870072B6A2 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE342492D9CF9870072B6A2 /* Tools.m */; };
 		CAE3424D2D9D08440072B6A2 /* file in Resources */ = {isa = PBXBuildFile; fileRef = CAE3424C2D9D08440072B6A2 /* file */; };
 		CAFEF0D52E71513500B2965C /* BaseNormalBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFEF0D42E71513500B2965C /* BaseNormalBarVC.m */; };
@@ -72,8 +63,6 @@
 		CAE341BA2D9CF8D80072B6A2 /* ATADFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATADFootView.m; sourceTree = "<group>"; };
 		CAE341BB2D9CF8D80072B6A2 /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		CAE341BC2D9CF8D80072B6A2 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
-		CAE341BD2D9CF8D80072B6A2 /* LaunchLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchLoadingView.h; sourceTree = "<group>"; };
-		CAE341BE2D9CF8D80072B6A2 /* LaunchLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchLoadingView.m; sourceTree = "<group>"; };
 		CAE341BF2D9CF8D80072B6A2 /* NaviBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviBarView.h; sourceTree = "<group>"; };
 		CAE341C02D9CF8D80072B6A2 /* NaviBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviBarView.m; sourceTree = "<group>"; };
 		CAE341C12D9CF8D80072B6A2 /* NormalNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalNavBar.h; sourceTree = "<group>"; };
@@ -90,20 +79,8 @@
 		CAE341D82D9CF96C0072B6A2 /* InterstitialVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialVC.m; sourceTree = "<group>"; };
 		CAE341E82D9CF96C0072B6A2 /* AdDisplayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdDisplayVC.h; sourceTree = "<group>"; };
 		CAE341E92D9CF96C0072B6A2 /* AdDisplayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdDisplayVC.m; sourceTree = "<group>"; };
-		CAE341EB2D9CF96C0072B6A2 /* DrawAdCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawAdCell.h; sourceTree = "<group>"; };
-		CAE341EC2D9CF96C0072B6A2 /* DrawAdCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawAdCell.m; sourceTree = "<group>"; };
-		CAE341ED2D9CF96C0072B6A2 /* DrawCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawCustomCell.h; sourceTree = "<group>"; };
-		CAE341EE2D9CF96C0072B6A2 /* DrawCustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawCustomCell.m; sourceTree = "<group>"; };
-		CAE341EF2D9CF96C0072B6A2 /* DrawCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawCustomCell.xib; sourceTree = "<group>"; };
-		CAE341F12D9CF96C0072B6A2 /* AdCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdCell.h; sourceTree = "<group>"; };
-		CAE341F22D9CF96C0072B6A2 /* AdCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdCell.m; sourceTree = "<group>"; };
-		CAE341F32D9CF96C0072B6A2 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
-		CAE341F42D9CF96C0072B6A2 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
-		CAE341F52D9CF96C0072B6A2 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		CAE341F82D9CF96C0072B6A2 /* NativeTypeSelectVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeTypeSelectVC.h; sourceTree = "<group>"; };
 		CAE341F92D9CF96C0072B6A2 /* NativeTypeSelectVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeTypeSelectVC.m; sourceTree = "<group>"; };
-		CAE341FB2D9CF96C0072B6A2 /* DemoOfferAdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoOfferAdModel.h; sourceTree = "<group>"; };
-		CAE341FC2D9CF96C0072B6A2 /* DemoOfferAdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoOfferAdModel.m; sourceTree = "<group>"; };
 		CAE342012D9CF96C0072B6A2 /* SelfRenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfRenderView.h; sourceTree = "<group>"; };
 		CAE342022D9CF96C0072B6A2 /* SelfRenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfRenderView.m; sourceTree = "<group>"; };
 		CAE342042D9CF96C0072B6A2 /* ExpressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressVC.h; sourceTree = "<group>"; };
@@ -114,8 +91,6 @@
 		CAE3420C2D9CF96C0072B6A2 /* RewardedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardedVC.m; sourceTree = "<group>"; };
 		CAE342132D9CF96C0072B6A2 /* SplashVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashVC.h; sourceTree = "<group>"; };
 		CAE342142D9CF96C0072B6A2 /* SplashVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashVC.m; sourceTree = "<group>"; };
-		CAE342272D9CF96C0072B6A2 /* HyperBidAdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyperBidAdManager.h; sourceTree = "<group>"; };
-		CAE342282D9CF96C0072B6A2 /* HyperBidAdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyperBidAdManager.m; sourceTree = "<group>"; };
 		CAE342482D9CF9870072B6A2 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		CAE342492D9CF9870072B6A2 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		CAE3424C2D9D08440072B6A2 /* file */ = {isa = PBXFileReference; lastKnownFileType = text; path = file; sourceTree = "<group>"; };
@@ -178,7 +153,6 @@
 				CAFEF0D12E714F5200B2965C /* MediationUnitID.h */,
 				CAE341D22D9CF9590072B6A2 /* Home */,
 				CAE3421A2D9CF96C0072B6A2 /* AdDemo */,
-				CAE342292D9CF96C0072B6A2 /* Tools&Manager */,
 				CAE341AA2D9CF8240072B6A2 /* Others */,
 				CAAEE88C2D9BDEC900B68282 /* AppDelegate.h */,
 				CAAEE88D2D9BDEC900B68282 /* AppDelegate.m */,
@@ -235,8 +209,6 @@
 				CAE341BA2D9CF8D80072B6A2 /* ATADFootView.m */,
 				CAE341BB2D9CF8D80072B6A2 /* CustomTableViewCell.h */,
 				CAE341BC2D9CF8D80072B6A2 /* CustomTableViewCell.m */,
-				CAE341BD2D9CF8D80072B6A2 /* LaunchLoadingView.h */,
-				CAE341BE2D9CF8D80072B6A2 /* LaunchLoadingView.m */,
 				CAE341BF2D9CF8D80072B6A2 /* NaviBarView.h */,
 				CAE341C02D9CF8D80072B6A2 /* NaviBarView.m */,
 				CAE341C12D9CF8D80072B6A2 /* NormalNavBar.h */,
@@ -285,39 +257,6 @@
 			path = AdDisplayVC;
 			sourceTree = "<group>";
 		};
-		CAE341F02D9CF96C0072B6A2 /* DrawCell */ = {
-			isa = PBXGroup;
-			children = (
-				CAE341EB2D9CF96C0072B6A2 /* DrawAdCell.h */,
-				CAE341EC2D9CF96C0072B6A2 /* DrawAdCell.m */,
-				CAE341ED2D9CF96C0072B6A2 /* DrawCustomCell.h */,
-				CAE341EE2D9CF96C0072B6A2 /* DrawCustomCell.m */,
-				CAE341EF2D9CF96C0072B6A2 /* DrawCustomCell.xib */,
-			);
-			path = DrawCell;
-			sourceTree = "<group>";
-		};
-		CAE341F62D9CF96C0072B6A2 /* FeedCell */ = {
-			isa = PBXGroup;
-			children = (
-				CAE341F12D9CF96C0072B6A2 /* AdCell.h */,
-				CAE341F22D9CF96C0072B6A2 /* AdCell.m */,
-				CAE341F32D9CF96C0072B6A2 /* CustomCell.h */,
-				CAE341F42D9CF96C0072B6A2 /* CustomCell.m */,
-				CAE341F52D9CF96C0072B6A2 /* CustomCell.xib */,
-			);
-			path = FeedCell;
-			sourceTree = "<group>";
-		};
-		CAE341F72D9CF96C0072B6A2 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				CAE341F02D9CF96C0072B6A2 /* DrawCell */,
-				CAE341F62D9CF96C0072B6A2 /* FeedCell */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 		CAE341FA2D9CF96C0072B6A2 /* MenuVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,22 +266,11 @@
 			path = MenuVC;
 			sourceTree = "<group>";
 		};
-		CAE341FD2D9CF96C0072B6A2 /* OfferAdModel */ = {
-			isa = PBXGroup;
-			children = (
-				CAE341FB2D9CF96C0072B6A2 /* DemoOfferAdModel.h */,
-				CAE341FC2D9CF96C0072B6A2 /* DemoOfferAdModel.m */,
-			);
-			path = OfferAdModel;
-			sourceTree = "<group>";
-		};
 		CAE341FE2D9CF96C0072B6A2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				CAE341EA2D9CF96C0072B6A2 /* AdDisplayVC */,
-				CAE341F72D9CF96C0072B6A2 /* Cell */,
 				CAE341FA2D9CF96C0072B6A2 /* MenuVC */,
-				CAE341FD2D9CF96C0072B6A2 /* OfferAdModel */,
 				CAE342032D9CF96C0072B6A2 /* SelfRenderView */,
 			);
 			path = Resource;
@@ -357,30 +285,14 @@
 			path = SelfRenderView;
 			sourceTree = "<group>";
 		};
-		CAE342062D9CF96C0072B6A2 /* SingleExpressAd */ = {
-			isa = PBXGroup;
-			children = (
-				CAE342042D9CF96C0072B6A2 /* ExpressVC.h */,
-				CAE342052D9CF96C0072B6A2 /* ExpressVC.m */,
-			);
-			path = SingleExpressAd;
-			sourceTree = "<group>";
-		};
-		CAE342092D9CF96C0072B6A2 /* SingleSelfRenderAd */ = {
+		CAE3420A2D9CF96C0072B6A2 /* Native */ = {
 			isa = PBXGroup;
 			children = (
 				CAE342072D9CF96C0072B6A2 /* SelfRenderVC.h */,
 				CAE342082D9CF96C0072B6A2 /* SelfRenderVC.m */,
-			);
-			path = SingleSelfRenderAd;
-			sourceTree = "<group>";
-		};
-		CAE3420A2D9CF96C0072B6A2 /* Native */ = {
-			isa = PBXGroup;
-			children = (
+				CAE342042D9CF96C0072B6A2 /* ExpressVC.h */,
+				CAE342052D9CF96C0072B6A2 /* ExpressVC.m */,
 				CAE341FE2D9CF96C0072B6A2 /* Resource */,
-				CAE342092D9CF96C0072B6A2 /* SingleSelfRenderAd */,
-				CAE342062D9CF96C0072B6A2 /* SingleExpressAd */,
 			);
 			path = Native;
 			sourceTree = "<group>";
@@ -413,15 +325,6 @@
 				CAE3420A2D9CF96C0072B6A2 /* Native */,
 			);
 			path = AdDemo;
-			sourceTree = "<group>";
-		};
-		CAE342292D9CF96C0072B6A2 /* Tools&Manager */ = {
-			isa = PBXGroup;
-			children = (
-				CAE342272D9CF96C0072B6A2 /* HyperBidAdManager.h */,
-				CAE342282D9CF96C0072B6A2 /* HyperBidAdManager.m */,
-			);
-			path = "Tools&Manager";
 			sourceTree = "<group>";
 		};
 		CAE3424A2D9CF9870072B6A2 /* Tools */ = {
@@ -503,8 +406,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE342462D9CF96C0072B6A2 /* DrawCustomCell.xib in Resources */,
-				CAE342472D9CF96C0072B6A2 /* CustomCell.xib in Resources */,
 				CAAEE89A2D9BDEC900B68282 /* Assets.xcassets in Resources */,
 				CAAEE89C2D9BDEC900B68282 /* LaunchScreen.storyboard in Resources */,
 				CAE3424D2D9D08440072B6A2 /* file in Resources */,
@@ -523,9 +424,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -562,9 +467,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HyperBidDemo/Pods-HyperBidDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -581,22 +490,16 @@
 				CAE341B32D9CF8B20072B6A2 /* BaseNavigationController.m in Sources */,
 				CAE341B42D9CF8B20072B6A2 /* BaseVC.m in Sources */,
 				CAE341B52D9CF8B20072B6A2 /* BaseTabBarController.m in Sources */,
-				CAE3422B2D9CF96C0072B6A2 /* DemoOfferAdModel.m in Sources */,
 				CAE3422C2D9CF96C0072B6A2 /* SplashVC.m in Sources */,
 				CAE3422D2D9CF96C0072B6A2 /* AdDisplayVC.m in Sources */,
-				CAE3422E2D9CF96C0072B6A2 /* CustomCell.m in Sources */,
 				CAE342302D9CF96C0072B6A2 /* ExpressVC.m in Sources */,
 				CAE342312D9CF96C0072B6A2 /* BannerVC.m in Sources */,
 				CAE342342D9CF96C0072B6A2 /* SelfRenderVC.m in Sources */,
 				CAFEF0D52E71513500B2965C /* BaseNormalBarVC.m in Sources */,
-				CAE342362D9CF96C0072B6A2 /* HyperBidAdManager.m in Sources */,
 				CAE342392D9CF96C0072B6A2 /* InterstitialVC.m in Sources */,
-				CAE3423C2D9CF96C0072B6A2 /* DrawCustomCell.m in Sources */,
 				CAE3423D2D9CF96C0072B6A2 /* RewardedVC.m in Sources */,
 				CAE3423F2D9CF96C0072B6A2 /* SelfRenderView.m in Sources */,
 				CAE342412D9CF96C0072B6A2 /* NativeTypeSelectVC.m in Sources */,
-				CAE342442D9CF96C0072B6A2 /* DrawAdCell.m in Sources */,
-				CAE342452D9CF96C0072B6A2 /* AdCell.m in Sources */,
 				CAE3424B2D9CF9870072B6A2 /* Tools.m in Sources */,
 				CAE341D32D9CF9590072B6A2 /* HomeViewController.m in Sources */,
 				CAE341C82D9CF8D80072B6A2 /* ATADFootView.m in Sources */,
@@ -604,7 +507,6 @@
 				CAE341CA2D9CF8D80072B6A2 /* LocalizationManager.m in Sources */,
 				CAE341CB2D9CF8D80072B6A2 /* WildClickButton.m in Sources */,
 				CAE341CC2D9CF8D80072B6A2 /* NaviBarView.m in Sources */,
-				CAE341CD2D9CF8D80072B6A2 /* LaunchLoadingView.m in Sources */,
 				CAE341CE2D9CF8D80072B6A2 /* TwoButtonAlertView.m in Sources */,
 				CAE341CF2D9CF8D80072B6A2 /* CustomTableViewCell.m in Sources */,
 				CAAEE89E2D9BDEC900B68282 /* AppDelegate.m in Sources */,

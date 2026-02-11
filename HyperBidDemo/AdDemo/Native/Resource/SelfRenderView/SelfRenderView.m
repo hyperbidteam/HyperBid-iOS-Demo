@@ -13,9 +13,8 @@
 #define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
  
 @interface SelfRenderView()
-
-@property(nonatomic, strong)  ATNativeAdOffer * nativeAdOffer;
-@property (nonatomic, strong) MCAdInfo        * adInfo;
+ 
+@property (nonatomic, strong) MCAdInfo * adInfo;
 
 @end
 
@@ -26,8 +25,8 @@
 }
 
 - (void)destory {
-    // Destroy offer in time
-    _nativeAdOffer = nil;
+    // Destroy ad in time
+    _adInfo = nil;
 }
  
 - (instancetype)initWithAdInfo:(MCAdInfo *)adInfo {

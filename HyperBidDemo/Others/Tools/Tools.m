@@ -6,44 +6,12 @@
 //
 
 #import "Tools.h"
-#import <AnyThinkNative/AnyThinkNative.h>
+ 
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/AdSupport.h>
 
 @implementation Tools
-
-+ (NSDictionary *)getOfferInfo:(ATNativeAdOffer *)nativeAdOffer {
-    NSMutableDictionary *extraDic = [NSMutableDictionary dictionary];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.networkFirmID) key:@"networkFirmID"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.title key:@"title"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.mainText key:@"mainText"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.ctaText key:@"ctaText"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.advertiser key:@"advertiser"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.videoUrl key:@"videoUrl"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.logoUrl key:@"logoUrl"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.iconUrl key:@"iconUrl"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.imageUrl key:@"imageUrl"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.mainImageWidth) key:@"mainImageWidth"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.mainImageHeight) key:@"mainImageHeight"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.imageList key:@"imageList"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.videoDuration) key:@"videoDuration"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.videoAspectRatio) key:@"videoAspectRatio"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.nativeExpressAdViewWidth) key:@"nativeExpressAdViewWidth"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.nativeExpressAdViewHeight) key:@"nativeExpressAdViewHeight"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.interactionType) key:@"interactionType"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.mediaExt key:@"mediaExt"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.source key:@"source"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.rating key:@"rating"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.commentNum) key:@"commentNum"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.appSize) key:@"appSize"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.appPrice key:@"appPrice"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.isExpressAd) key:@"isExpressAd"];
-    [self ATDemo_setDict:extraDic value:@(nativeAdOffer.nativeAd.isVideoContents) key:@"isVideoContents"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.icon key:@"iconImage"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.logo key:@"logoImage"];
-    [self ATDemo_setDict:extraDic value:nativeAdOffer.nativeAd.mainImage key:@"mainImage"];
-    return extraDic;
-}
+ 
 
 + (void)ATDemo_setDict:(NSMutableDictionary *)dict value:(id)value key:(NSString *)key {
     
