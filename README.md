@@ -19,7 +19,7 @@ QQ & Wechat `188108875(Harry)`
 ## Requirements
 
 > To ensure smooth compilation and successful execution of this Demo, we recommend using the following editor versions:
-> - Xcode `16.3` and above
+> - Xcode `26.0` and above
 
 ## [Integration guide](https://help.hyperbid.com/docs/O2EqxBCC)
 
